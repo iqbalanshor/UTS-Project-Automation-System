@@ -79,6 +79,31 @@ Seluruh proses aplikasi dijalankan melalui Command Line Interface (CLI), sehingg
 | Zipfile | Membuat backup ZIP |
 | Argparse | Mengelola perintah CLI |
 
+## 📊 4. Data yang Dikumpulkan
+
+Data lowongan pekerjaan yang dikumpulkan meliputi:
+
+1. Judul pekerjaan.
+2. Nama perusahaan.
+3. Lokasi pekerjaan.
+4. Tanggal posting.
+5. URL lowongan pekerjaan.
+
+**Website Sumber:** https://realpython.github.io/fake-jobs/
+
+## 📂 5. Struktur Folder
+
+<img width="267" height="486" alt="Screenshot 2026-11-09 200943" src="https://github.com/user-attachments/assets/4b0fad09-f0e3-4ab6-b236-39eef400f1cc" />
+
+## 📈 6. Hasil Implementasi
+Berdasarkan pengujian, aplikasi berhasil:
+
+1. Mengambil 30 data lowongan pekerjaan.
+2. Mengekstrak informasi pekerjaan dari website.
+3. Membersihkan lokasi dan memvalidasi tanggal menggunakan Regex.
+4. Menyimpan hasil scraping ke dalam CSV dan TXT.
+5. Membuat folder penyimpanan secara otomatis.
+6. Membuat file backup dalam format ZIP.
 ---
 
 
